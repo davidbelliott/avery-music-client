@@ -29,7 +29,7 @@ def on_new_tracks(tracks):
         if 'soundcloud.com' in track:
             mpd_uri = 'sc:' + track
             add = True
-        elif 'youtube.com' in track:
+        elif 'youtu' in track:
             mpd_uri = 'yt:' + track
             add = True
         if add:
